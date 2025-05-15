@@ -1,0 +1,9 @@
+/* Garante que todo o viewport tenha o fundo escuro */
+:host{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+

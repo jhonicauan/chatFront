@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+html, body,.tela {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(39, 37, 37, 0.986) !important;
+}
+
+*{
+    color: white;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:host{
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 2rem;
+    cursor: pointer;
+    margin: 1rem;
+    border-radius: 0.4rem;
+}
+
+.chatBox{
+    height: 100%;
+    width: 100%;
+}
+.host:hover{
+    background-color: rgb(7, 16, 34);
+    transition: all 0.4s ease-in;
+}
+img{
+  border-radius: 50%;
+  width: 5rem;    /* Defina um tamanho quadrado */
+  height: 5rem;      /* Igual à largura */
+  object-fit: cover;  /* Garante que a imagem preencha o círculo */
+}
+
+.infoChat{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
