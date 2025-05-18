@@ -1,3 +1,2 @@
-<div class="messageArea">
-
-</div>
+<app-message *ngFor="let messages of chatMessages" [myMessage]="messages.myMessage" [text]="messages.text" [ngClass]="messages.myMessage ?'sentMessage':'recivedMessage'" ></app-message>
+    

@@ -1,4 +1,14 @@
 :host{
+
+}
+.ghost{
+    height: 6rem;
+}
+.inputMessageframe{
+    display: flex;
+    flex-direction: column;
+}
+.inputMessage{
     height: 6rem;
     background-color: rgba(14, 13, 13, 0.986);
     display: flex;
@@ -6,6 +16,9 @@
     align-items: center;
     padding: 1rem;
     gap: 3rem;
+    position: fixed;
+    bottom: 0;
+    width:-webkit-fill-available;
 }
 
 input{

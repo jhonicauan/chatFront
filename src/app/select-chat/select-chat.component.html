@@ -1,1 +1,1 @@
-<app-chat-box *ngFor="let chat of chats" [id]="chat.id" [name]="chat.name" [photo]="chat.photo" [lastMessage]="chat.lastMessage" (selected)="sendChatSelected($event)"></app-chat-box>
+<app-chat-box *ngFor="let chat of chats" [id]="chat.id" [name]="chat.name" [photo]="chat.photo" [lastMessage]="setLastMessage(chat).text" (selected)="sendChatSelected($event)"></app-chat-box>

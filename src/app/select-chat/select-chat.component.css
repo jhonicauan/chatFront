@@ -8,4 +8,6 @@
     background-color: rgba(26, 26, 26, 0.986);
     color: white;
     padding: 3rem 0;
+    overflow-y: auto;
+
 }

@@ -1,3 +1,10 @@
-.messageArea{
-    height: 75%;
+:host{
+    height: auto;
+    padding: 1rem;
+    overflow-y: auto;
+    gap: 0.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
 }
+

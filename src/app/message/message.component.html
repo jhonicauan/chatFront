@@ -1,0 +1,12 @@
+<div *ngIf="myMessage; then sentMessage else recivedMessage"></div>
+    <ng-template #sentMessage >
+            <p>
+                {{text}}
+            </p>    
+    </ng-template>
+    <ng-template #recivedMessage >
+        <p>
+            {{text}}
+        </p>
+    </ng-template>
+

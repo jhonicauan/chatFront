@@ -1,0 +1,17 @@
+:host{
+    color: white;
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    word-wrap: break-word;
+}
+:host(.sentMessage){
+    align-self: flex-end;
+    background-color: darkcyan;
+    
+
+}
+:host(.recivedMessage){
+    align-self: flex-start;
+    background-color: rgb(73, 73, 73);
+}

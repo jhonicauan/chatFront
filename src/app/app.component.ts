@@ -4,6 +4,7 @@ import { SelectChatComponent } from './select-chat/select-chat.component';
 import { ChatAreaComponent } from './chat-area/chat-area.component';
 import chatvalues from "../assets/data/chats.json";
 import { chatBoxModel } from './interfaces/chatBoxModel';
+import { messageModel } from './interfaces/messageModel';
 
 @Component({
   selector: 'app-root',
@@ -12,10 +13,15 @@ import { chatBoxModel } from './interfaces/chatBoxModel';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  chatId:number = 0;
+  chatId:number = 1;
   allChats:chatBoxModel[] = chatvalues;
+
   setChatId(chatId:number){
     this.chatId = chatId;
+  }
+
+  setChat():messageModel[]{
+    return this.allChats[this.chatId-1].messages;
   }
 
   setName():string{

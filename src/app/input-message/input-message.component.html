@@ -1,2 +1,10 @@
-<input type="text">
-<button>Enviar</button>
+<div class="inputMessageFrame">
+    <div class="ghost">
+        <p></p>
+    </div>
+    <div class="inputMessage">    
+    <input type="text" id="messageBox" name="messageBox" [(ngModel)]="messageBox" >
+    <button id="sendButton" (click)="sendMessage(messageBox)">Enviar</button>
+    </div>
+    
+</div>

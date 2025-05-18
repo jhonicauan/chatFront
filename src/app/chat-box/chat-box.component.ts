@@ -17,7 +17,6 @@ export class ChatBoxComponent {
   @HostListener('click')
   sendMessage(){
     this.selected.emit(this.id);
-    console.log(this.id);
   }
 
 }

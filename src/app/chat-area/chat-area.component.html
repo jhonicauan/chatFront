@@ -1,3 +1,3 @@
 <app-chat-info [name]="name" [photo]="photo"></app-chat-info>
-<app-message-area></app-message-area>
-<app-input-message></app-input-message>
+<app-message-area [id]="id" [chatMessages]="chatMessage"></app-message-area>
+<app-input-message (message)="addNewMessage($event)"></app-input-message>

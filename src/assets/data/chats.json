@@ -2,16 +2,57 @@
     "id":1,
     "name":"Jhoni",
     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ48gR5XDZPpi5F8QEitXQUPEBvgeksGD2OKg&s",
-    "lastMessage":"Eai nengue?"
+    "messages": [{
+      "text":"ablubleblubluble",
+      "myMessage": true 
+      },
+      {
+        "text":"ablubleblubluble",
+        "myMessage": false
+        },
+        {
+          "text":"ablubleblubluble",
+          "myMessage": false
+          },
+          {
+            "text":"ablubleblubluble",
+            "myMessage": false
+            },
+            {
+              "text":"ablubleblubluble",
+              "myMessage": false
+              },
+              {
+                "text":"ablubleblubluble",
+                "myMessage": false
+                },
+                {
+                  "text":"ablubleblubluble",
+                  "myMessage": false
+                  },
+                  {
+                    "text":"ablubleblubluble",
+                    "myMessage": false
+                    },
+                    {
+                      "text":"ablubleblubluble",
+                      "myMessage": false
+                      }]
   },{
     "id":2,
     "name":"Joao",
     "photo":"https://th.bing.com/th/id/R.27681d6ad09ea6bf916b2c0a89580991?rik=vZT1Om3MocwREA&pid=ImgRaw&r=0",
-    "lastMessage":"Desgraca"
+    "messages": [{
+      "text":"ablubleblubluble",
+      "myMessage": true 
+      }]
   },{
     "id":3,
     "name":"Bernado",
     "photo":"https://cdn.verbub.com/images/y-los-declaro-ablubleblubluble-249325.jpg",
-    "lastMessage":"insira piada"
+    "messages": [{
+      "text":"ablubleblubluble",
+      "myMessage": true 
+      }]
   }
 ]
