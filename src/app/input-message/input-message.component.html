@@ -2,9 +2,11 @@
     <div class="ghost">
         <p></p>
     </div>
+    <form (submit)="sendMessage(messageBox)">
     <div class="inputMessage">    
     <input type="text" id="messageBox" name="messageBox" [(ngModel)]="messageBox" >
-    <button id="sendButton" (click)="sendMessage(messageBox)">Enviar</button>
+    <button id="sendButton">Enviar</button>
     </div>
+    </form>
     
 </div>

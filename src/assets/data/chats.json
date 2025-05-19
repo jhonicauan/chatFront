@@ -54,5 +54,24 @@
       "text":"ablubleblubluble",
       "myMessage": true 
       }]
+  },
+  {
+    "id":4,
+    "name":"Lucas",
+    "photo":"https://cdn.verbub.com/images/y-los-declaro-ablubleblubluble-249325.jpg",
+    "messages": [{
+      "text":"ablubleblubluble",
+      "myMessage": true 
+      }]
+  }
+  ,
+  {
+    "id":5,
+    "name":"Yuri",
+    "photo":"https://cdn.verbub.com/images/y-los-declaro-ablubleblubluble-249325.jpg",
+    "messages": [{
+      "text":"ablubleblubluble",
+      "myMessage": true 
+      }]
   }
 ]
